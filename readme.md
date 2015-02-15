@@ -32,7 +32,9 @@ cbe = CoinbaseExchange()
 #### Public API Methods
 
 * [`getProducts`](https://docs.exchange.coinbase.com/#get-products)
-```cbe.getProducts()```
+```
+cbe.getProducts()
+```
 
 * [`getProductOrderBook`](https://docs.exchange.coinbase.com/#get-product-order-book)
 ```
@@ -41,19 +43,31 @@ cbe.getProductOrderBook(level=3)
 ```
 
 * [`getProductTicker`](https://docs.exchange.coinbase.com/#get-product-ticker)
-```cbe.getProductTicker()```
+```
+cbe.getProductTicker()
+```
 
 * [`getProductTrades`](https://docs.exchange.coinbase.com/#get-trades)
-```cbe.getProductTrades()```
+```
+cbe.getProductTrades()
+```
 
 * [`getProductHistoricRates`](https://docs.exchange.coinbase.com/#get-historic-rates)
-```cbe.getProductHistoricRates()```
+```
+cbe.getProductHistoricRates()
+```
 
 * [`getProduct24HrStats`](https://docs.exchange.coinbase.com/#get-24hr-stats)
-```cbe.getProduct24HrStats()```
+```
+cbe.getProduct24HrStats()
+```
 
 * [`getCurrencies`](https://docs.exchange.coinbase.com/#get-currencies)
-```cbe.getCurrencies()```
+```
+cbe.getCurrencies()
+```
 
 * [`getTime`](https://docs.exchange.coinbase.com/#time)
-```cbe.getTime()```
+```
+cbe.getTime()
+```
