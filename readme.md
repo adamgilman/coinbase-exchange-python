@@ -16,7 +16,7 @@ the MIT License – please take the following message to heart:*
 
 ## In Active Development
 * Public facing (non-authenticated) API completed
-* Private facing (authenticated) API completed
+* Private facing (authenticated) API unstarted
 
 ## Quick Start
 
