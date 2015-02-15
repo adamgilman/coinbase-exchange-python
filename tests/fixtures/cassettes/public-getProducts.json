@@ -1,0 +1,59 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.5.1 CPython/2.7.6 Darwin/14.0.0]
+    method: GET
+    uri: http://api.exchange.coinbase.com/products
+  response:
+    body: {string: !!python/unicode ''}
+    headers:
+      cache-control: ['private, max-age=0, no-store, no-cache, must-revalidate, post-check=0,
+          pre-check=0']
+      cf-ray: [1b930b8853c606dc-LHR]
+      connection: [keep-alive]
+      date: ['Sun, 15 Feb 2015 16:57:32 GMT']
+      expires: ['Thu, 01 Jan 1970 00:00:01 GMT']
+      location: ['https://api.exchange.coinbase.com/products']
+      server: [cloudflare-nginx]
+      set-cookie: ['__cfduid=d29838848f6f7735b48c3145d2fdf432a1424019452; expires=Mon,
+          15-Feb-16 16:57:32 GMT; path=/; domain=.coinbase.com; HttpOnly']
+      transfer-encoding: [chunked]
+    status: {code: 301, message: Moved Permanently}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Cookie: [__cfduid=d29838848f6f7735b48c3145d2fdf432a1424019452]
+      User-Agent: [python-requests/2.5.1 CPython/2.7.6 Darwin/14.0.0]
+    method: GET
+    uri: https://api.exchange.coinbase.com:443/products
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4quVspMUbJScgpx1g0NdlHSUUpKLE6NTy4tKkrNS66EyCjpKBWW5pegCCMpzs3M
+        iy/OrEpVsjLQMzCECSZWQAUNDQwMDGAmZOYlF6XmpuaVwBSnZBYX5CRWxucl5qZCbNMHGV0bCwAA
+        AP//AwDJyn8CmgAAAA==
+    headers:
+      access-control-allow-headers: ['Content-Type, Accept, cb-session']
+      access-control-allow-methods: ['GET,POST,DELETE']
+      access-control-allow-origin: ['*']
+      access-control-expose-headers: ['cb-total-records, cb-before, cb-after']
+      access-control-max-age: ['7200']
+      cache-control: ['public, max-age=1', no-cache="set-cookie"]
+      cf-ray: [1b930b89128d06be-LHR]
+      connection: [keep-alive]
+      content-encoding: [gzip]
+      content-type: [application/json; charset=utf-8]
+      date: ['Sun, 15 Feb 2015 16:57:32 GMT']
+      etag: [W/"9a-27fcac9"]
+      server: [cloudflare-nginx]
+      set-cookie: [AWSELB=754135F50CE8BCE6DEB66CD2606DB09EBD526C11B830584D9E2133EE8403E9DB10BF0F684AC13FF5D216879D7AECCA99C2727690F2E99DFB4EAC2625284DC52713DDAB6DBA;PATH=/]
+      transfer-encoding: [chunked]
+    status: {code: 200, message: OK}
+version: 1

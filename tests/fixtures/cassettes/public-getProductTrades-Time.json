@@ -1,0 +1,175 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.5.1 CPython/2.7.6 Darwin/14.0.0]
+    method: GET
+    uri: http://api.exchange.coinbase.com/products/BTC-USD/trades
+  response:
+    body: {string: !!python/unicode ''}
+    headers:
+      cache-control: ['private, max-age=0, no-store, no-cache, must-revalidate, post-check=0,
+          pre-check=0']
+      cf-ray: [1b93f85c9ea90cb3-LHR]
+      connection: [keep-alive]
+      date: ['Sun, 15 Feb 2015 19:39:12 GMT']
+      expires: ['Thu, 01 Jan 1970 00:00:01 GMT']
+      location: ['https://api.exchange.coinbase.com/products/BTC-USD/trades']
+      server: [cloudflare-nginx]
+      set-cookie: ['__cfduid=d56e87747425c2139795cc9883eb7c2bf1424029152; expires=Mon,
+          15-Feb-16 19:39:12 GMT; path=/; domain=.coinbase.com; HttpOnly']
+      transfer-encoding: [chunked]
+    status: {code: 301, message: Moved Permanently}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Cookie: [__cfduid=d56e87747425c2139795cc9883eb7c2bf1424029152]
+      User-Agent: [python-requests/2.5.1 CPython/2.7.6 Darwin/14.0.0]
+    method: GET
+    uri: https://api.exchange.coinbase.com:443/products/BTC-USD/trades
+  response:
+    body:
+      string: !!binary |
+        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
+        DwAA//8DADcU+94NLQAA
+    headers:
+      access-control-allow-headers: ['Content-Type, Accept, cb-session']
+      access-control-allow-methods: ['GET,POST,DELETE']
+      access-control-allow-origin: ['*']
+      access-control-expose-headers: ['cb-total-records, cb-before, cb-after']
+      access-control-max-age: ['7200']
+      cache-control: ['public, max-age=1', no-cache="set-cookie"]
+      cb-after: ['221234']
+      cb-before: ['221333']
+      cf-ray: [1b93f85d958d0ce9-LHR]
+      connection: [keep-alive]
+      content-encoding: [gzip]
+      content-type: [application/json; charset=utf-8]
+      date: ['Sun, 15 Feb 2015 19:39:13 GMT']
+      etag: [W/"Xv5P+/kJGT6F0AvjdhH7tw=="]
+      server: [cloudflare-nginx]
+      set-cookie: [AWSELB=754135F50CE8BCE6DEB66CD2606DB09EBD526C11B8B3B8135C3624E307A0B33D05EC87BCCE3A8ACD5AA529348989781D1D011B336DCEE5487DCBCAD7A673BC34385E10EFBD;PATH=/]
+      transfer-encoding: [chunked]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.5.1 CPython/2.7.6 Darwin/14.0.0]
+    method: GET
+    uri: http://api.exchange.coinbase.com/products/BTC-USD/trades
+  response:
+    body: {string: !!python/unicode ''}
+    headers:
+      cache-control: ['private, max-age=0, no-store, no-cache, must-revalidate, post-check=0,
+          pre-check=0']
+      cf-ray: [1b93f861f0f60cc5-LHR]
+      connection: [keep-alive]
+      date: ['Sun, 15 Feb 2015 19:39:13 GMT']
+      expires: ['Thu, 01 Jan 1970 00:00:01 GMT']
+      location: ['https://api.exchange.coinbase.com/products/BTC-USD/trades']
+      server: [cloudflare-nginx]
+      set-cookie: ['__cfduid=db7106d05a0b97bd194998d024655370e1424029153; expires=Mon,
+          15-Feb-16 19:39:13 GMT; path=/; domain=.coinbase.com; HttpOnly']
+      transfer-encoding: [chunked]
+    status: {code: 301, message: Moved Permanently}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Cookie: [__cfduid=db7106d05a0b97bd194998d024655370e1424029153]
+      User-Agent: [python-requests/2.5.1 CPython/2.7.6 Darwin/14.0.0]
+    method: GET
+    uri: https://api.exchange.coinbase.com:443/products/BTC-USD/trades
+  response:
+    body:
+      string: !!binary |
+        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
+        EX/+AQAA//8DADcU+94NLQAA
+    headers:
+      access-control-allow-headers: ['Content-Type, Accept, cb-session']
+      access-control-allow-methods: ['GET,POST,DELETE']
+      access-control-allow-origin: ['*']
+      access-control-expose-headers: ['cb-total-records, cb-before, cb-after']
+      access-control-max-age: ['7200']
+      cache-control: ['public, max-age=1', no-cache="set-cookie"]
+      cb-after: ['221234']
+      cb-before: ['221333']
+      cf-ray: [1b93f862c9a7063a-LHR]
+      connection: [keep-alive]
+      content-encoding: [gzip]
+      content-type: [application/json; charset=utf-8]
+      date: ['Sun, 15 Feb 2015 19:39:14 GMT']
+      etag: [W/"Xv5P+/kJGT6F0AvjdhH7tw=="]
+      server: [cloudflare-nginx]
+      set-cookie: [AWSELB=754135F50CE8BCE6DEB66CD2606DB09EBD526C11B830584D9E2133EE8403E9DB10BF0F684A3A8ACD5AA529348989781D1D011B336DCEE5487DCBCAD7A673BC34385E10EFBD;PATH=/]
+      transfer-encoding: [chunked]
+    status: {code: 200, message: OK}
+version: 1

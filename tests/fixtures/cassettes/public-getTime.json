@@ -1,0 +1,53 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.5.1 CPython/2.7.6 Darwin/14.0.0]
+    method: GET
+    uri: http://api.exchange.coinbase.com/time/
+  response:
+    body: {string: !!python/unicode ''}
+    headers:
+      cache-control: ['private, max-age=0, no-store, no-cache, must-revalidate, post-check=0,
+          pre-check=0']
+      cf-ray: [1b946ec35c7d0622-LHR]
+      connection: [keep-alive]
+      date: ['Sun, 15 Feb 2015 21:00:02 GMT']
+      expires: ['Thu, 01 Jan 1970 00:00:01 GMT']
+      location: ['https://api.exchange.coinbase.com/time/']
+      server: [cloudflare-nginx]
+      set-cookie: ['__cfduid=d41143070000b41514b8b9288c92748151424034002; expires=Mon,
+          15-Feb-16 21:00:02 GMT; path=/; domain=.coinbase.com; HttpOnly']
+      transfer-encoding: [chunked]
+    status: {code: 301, message: Moved Permanently}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Cookie: [__cfduid=d41143070000b41514b8b9288c92748151424034002]
+      User-Agent: [python-requests/2.5.1 CPython/2.7.6 Darwin/14.0.0]
+    method: GET
+    uri: https://api.exchange.coinbase.com:443/time/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWyizOV7JSMjIwNNU1MNI1NA0xMrQyMLAyMNezMDaMUtJRSi3IT85QsjI0MTIx
+        MDYxgEjUAgAAAP//AwDOVDYzOQAAAA==
+    headers:
+      cache-control: [no-cache="set-cookie"]
+      cf-ray: [1b946ec41b65139b-LHR]
+      connection: [keep-alive]
+      content-encoding: [gzip]
+      content-type: [application/json; charset=utf-8]
+      date: ['Sun, 15 Feb 2015 21:00:03 GMT']
+      etag: [W/"39-333654ce"]
+      server: [cloudflare-nginx]
+      set-cookie: [AWSELB=754135F50CE8BCE6DEB66CD2606DB09EBD526C11B8B3B8135C3624E307A0B33D05EC87BCCE3A8ACD5AA529348989781D1D011B336DCEE5487DCBCAD7A673BC34385E10EFBD;PATH=/]
+      transfer-encoding: [chunked]
+    status: {code: 200, message: OK}
+version: 1

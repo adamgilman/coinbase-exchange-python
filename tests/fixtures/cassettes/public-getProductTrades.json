@@ -1,0 +1,87 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.5.1 CPython/2.7.6 Darwin/14.0.0]
+    method: GET
+    uri: http://api.exchange.coinbase.com/products/BTC-USD/trades
+  response:
+    body: {string: !!python/unicode ''}
+    headers:
+      cache-control: ['private, max-age=0, no-store, no-cache, must-revalidate, post-check=0,
+          pre-check=0']
+      cf-ray: [1b93bf5657b40ce9-LHR]
+      connection: [keep-alive]
+      date: ['Sun, 15 Feb 2015 19:00:17 GMT']
+      expires: ['Thu, 01 Jan 1970 00:00:01 GMT']
+      location: ['https://api.exchange.coinbase.com/products/BTC-USD/trades']
+      server: [cloudflare-nginx]
+      set-cookie: ['__cfduid=db209843b17e9ec390a3af1b4a1e23d401424026817; expires=Mon,
+          15-Feb-16 19:00:17 GMT; path=/; domain=.coinbase.com; HttpOnly']
+      transfer-encoding: [chunked]
+    status: {code: 301, message: Moved Permanently}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Cookie: [__cfduid=db209843b17e9ec390a3af1b4a1e23d401424026817]
+      User-Agent: [python-requests/2.5.1 CPython/2.7.6 Darwin/14.0.0]
+    method: GET
+    uri: https://api.exchange.coinbase.com:443/products/BTC-USD/trades
+  response:
+    body:
+      string: !!binary |
+        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
+        svYXLQAA
+    headers:
+      access-control-allow-headers: ['Content-Type, Accept, cb-session']
+      access-control-allow-methods: ['GET,POST,DELETE']
+      access-control-allow-origin: ['*']
+      access-control-expose-headers: ['cb-total-records, cb-before, cb-after']
+      access-control-max-age: ['7200']
+      cache-control: ['public, max-age=1', no-cache="set-cookie"]
+      cb-after: ['220312']
+      cb-before: ['220411']
+      cf-ray: [1b93bf57d7a906fa-LHR]
+      connection: [keep-alive]
+      content-encoding: [gzip]
+      content-type: [application/json; charset=utf-8]
+      date: ['Sun, 15 Feb 2015 19:00:17 GMT']
+      etag: [W/"D35EyMn8nQPNhFZRb/6CSA=="]
+      server: [cloudflare-nginx]
+      set-cookie: [AWSELB=754135F50CE8BCE6DEB66CD2606DB09EBD526C11B8B2902BC7856260836C70076F9045C609C13FF5D216879D7AECCA99C2727690F2E99DFB4EAC2625284DC52713DDAB6DBA;PATH=/]
+      transfer-encoding: [chunked]
+    status: {code: 200, message: OK}
+version: 1
