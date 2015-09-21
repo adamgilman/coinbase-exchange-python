@@ -1,4 +1,7 @@
 # Coinbase Exchange
+[![Build Status](https://scrutinizer-ci.com/g/adamgilman/coinbase-exchange-python/badges/build.png?b=master)](https://scrutinizer-ci.com/g/adamgilman/coinbase-exchange-python/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/adamgilman/coinbase-exchange-python/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/adamgilman/coinbase-exchange-python/?branch=master)
+
 The un-official Python library for the [Coinbase Exchange
 API](https://docs.exchange.coinbase.com/).
 
